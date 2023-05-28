@@ -1,6 +1,8 @@
 # Genesis_test_task
 This is a test task for Genesis software engineering school.
 
+In order to send email you should define your Mailjet's API_KEY, API_SECRET and email.
+
 ## Docker:
 
 Build:
