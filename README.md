@@ -15,3 +15,10 @@ Run:
 
 Result:
 http://localhost:8000/
+
+### Logic
+
+Getting the bitcoin price is done using coingeco API.
+
+
+Emails are sent using Mailjet API.
