@@ -32,7 +32,7 @@ function addEmail() {
 }
     
 function sendEmails() {
-    // For this implementation servr must have smtp
+    // For this implementation server must have smtp
     $databaseFile = 'emails.txt';
     $existingEmails = file($databaseFile, FILE_IGNORE_NEW_LINES);
     $rate = getBitcoinUSDValue();
