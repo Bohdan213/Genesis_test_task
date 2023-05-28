@@ -32,10 +32,11 @@ function addEmail() {
 }
     
 function sendEmail($toEmail, $subject, $message, $headers) {
-    $apiKey = '';
-    $apiSecret = '';
+    // you should define your api, api_secret and email
+    $apiKey = 'API_KEY';
+    $apiSecret = 'API_SECRET';
     $mjVersion = 'v3.1';
-    $fromEmail = "";
+    $fromEmail = "EMAIL";
 
     $url = "https://api.mailjet.com/$mjVersion/send";
 
